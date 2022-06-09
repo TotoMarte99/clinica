@@ -652,19 +652,6 @@ fieldset textarea {
     font-weight: 300;
   }
 }
-@media (min-width: 480px) and (min-width: 992px) {
-  .top-header {
-    width: 100%;
-    background-image: url(../img/992.png);
-    background-size: cover;
-  }
-
-  .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: flex-end;
-  }
-}
 @media screen and (min-width: 480px) and (min-width: 950px) and (max-width: 1300px) {
   .Eleginos {
     display: flex;
@@ -757,6 +744,13 @@ fieldset textarea {
     color: #02A99F;
     display: flex;
     justify-content: flex-end;
+  }
+}
+@media (min-width: 480px) and (min-width: 992px) {
+  .top-header {
+    width: 100%;
+    background-image: url(../img/992.png);
+    background-size: cover;
   }
 }
 @media screen and (min-width: 480px) and (min-width: 1300px) {

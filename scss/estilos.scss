@@ -701,20 +701,6 @@ fieldset {
 
     }
 
-    @media (min-width: 992px) {
-        .top-header {
-            width: 100%;
-            background-image: url(../img/992.png);
-            background-size: cover;
-        }
-
-        .navbar-expand-lg .navbar-collapse {
-            display: flex !important;
-            flex-basis: auto;
-            justify-content: flex-end;
-        }
-
-    }
 
     @media screen and (min-width:950px) and (max-width:1300px) {
         .Eleginos {
@@ -816,7 +802,14 @@ fieldset {
 
         }
     }
+    @media (min-width: 992px) {
+        .top-header {
+            width: 100%;
+            background-image: url(../img/992.png);
+            background-size: cover;
+        }
 
+    }
     @media screen and (min-width: 1300px) {
         #Medicos {
             display: flex;
