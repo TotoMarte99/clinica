@@ -1,108 +1,13 @@
 @charset "UTF-8";
-@media screen and (min-width: 950px) and (max-width: 1300px) {
-  .Eleginos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #D9D9D9;
-    margin: 30px;
-    margin-right: 90px;
-    border-radius: 19px;
-    padding-top: 10px;
-  }
-  .Eleginos h2 {
-    font-size: 20px;
-    color: #02A99F;
-    font-weight: 700;
-    line-height: 20px;
-  }
-  .Eleginos p {
-    font-size: 17px;
-    text-align: center;
-    margin: 20px;
-    font-weight: 700;
-    line-height: 19px;
-  }
-
-  .carta {
-    position: relative;
-    width: 350px;
-    height: 380px;
-    margin: 90px;
-  }
-
-  .carta .back .link a {
-    color: #000000;
-    margin-bottom: 0;
-    font-size: 15px;
-    padding: 0;
-  }
-
-  .carta .back h3 {
-    font-size: 25px;
-    margin-top: 0px;
-    letter-spacing: 2px;
-  }
-
-  .carta .back p {
-    font-size: 14px;
-  }
-
-  .links_a {
-    color: rgb(8, 8, 8);
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 9px;
-    text-align: end;
-    margin-left: 400px;
-    margin-right: 10px;
-  }
-  .links_a li {
-    list-style: none;
-  }
-
-  .links_a:hover {
-    color: #02A99F;
-  }
-
-  .links_ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-  }
-
-  .frase {
-    font-size: 10px;
-    text-align: center;
-    color: #02A99F;
-    font-weight: 700;
-    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .titulo_links {
-    font-size: 12px;
-    margin: 0%;
-    font-weight: 700;
-    margin-left: 400px;
-    margin-right: 10px;
-    padding: 0px;
-    color: #02A99F;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
 * {
   margin: 0%;
   padding: 0%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   scroll-behavior: smooth;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(/img/icons8-menú-60.png);
+  background-image: url(../img/icons8-menú-60.png);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -112,7 +17,7 @@
 
 .top-header {
   width: 100%;
-  background-image: url(/img/logoheader.png);
+  background-image: url(../img/logoheader.png);
   background-size: cover;
   background-position: center;
 }
@@ -121,7 +26,7 @@
   color: #02A99F;
   padding: 50px;
   padding-left: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 20px;
   text-align: start;
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
@@ -137,7 +42,7 @@
   margin-bottom: 80px;
   margin-top: -10px;
   padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   padding: 10px;
 }
@@ -185,7 +90,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-image: url(/img/wave\ \(4\).svg);
+  background-image: url(../img/wave\ \(4\).svg);
   background-repeat: no-repeat;
   margin-left: 0%;
   margin-right: 0%;
@@ -712,7 +617,7 @@ fieldset textarea {
     color: #02A99F;
     padding: 50px;
     padding-left: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 22px;
     text-align: start;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
@@ -728,7 +633,7 @@ fieldset textarea {
     margin-bottom: 80px;
     margin-top: -10px;
     padding-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-size: 15px;
     padding: 20px;
@@ -749,13 +654,107 @@ fieldset textarea {
 @media (min-width: 480px) and (min-width: 992px) {
   .top-header {
     width: 100%;
-    background-image: url(/img/992.png);
+    background-image: url(../img/992.png);
     background-size: cover;
   }
 
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 480px) and (min-width: 950px) and (max-width: 1300px) {
+  .Eleginos {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 30px;
+    margin-right: 90px;
+    border-radius: 19px;
+    padding-top: 10px;
+  }
+  .Eleginos h2 {
+    font-size: 20px;
+    color: #02A99F;
+    font-weight: 200;
+    line-height: 20px;
+  }
+  .Eleginos p {
+    font-size: 17px;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .carta {
+    position: relative;
+    width: 350px;
+    height: 380px;
+    margin: 90px;
+  }
+
+  .carta .back .link a {
+    color: #000000;
+    margin-bottom: 0;
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .carta .back h3 {
+    font-size: 25px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+  }
+
+  .carta .back p {
+    font-size: 14px;
+  }
+
+  .links_a {
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: end;
+    margin-left: 400px;
+    margin-right: 10px;
+  }
+  .links_a li {
+    list-style: none;
+  }
+
+  .links_a:hover {
+    color: #02A99F;
+  }
+
+  .links_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .frase {
+    font-size: 10px;
+    text-align: center;
+    color: #02A99F;
+    font-weight: 700;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .titulo_links {
+    font-size: 12px;
+    margin: 0%;
+    font-weight: 700;
+    margin-left: 400px;
+    margin-right: 10px;
+    padding: 0px;
+    color: #02A99F;
+    display: flex;
     justify-content: flex-end;
   }
 }
@@ -884,7 +883,7 @@ fieldset textarea {
 
   .top-header {
     width: 100%;
-    background-image: url(/img/1300.png);
+    background-image: url(../img/1300.png);
     background-size: cover;
   }
 
@@ -892,7 +891,7 @@ fieldset textarea {
     color: #02A99F;
     padding: 50px;
     padding-left: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 50px;
     text-align: start;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
@@ -908,7 +907,7 @@ fieldset textarea {
     margin-bottom: 80px;
     margin-top: -10px;
     padding-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
     padding: 10px;
   }
@@ -931,7 +930,7 @@ fieldset textarea {
     position: relative;
     align-items: center;
     justify-content: flex-end;
-    background-image: url(/img/wave\ \(4\).svg);
+    background-image: url(../img/wave\ \(4\).svg);
     background-repeat: no-repeat;
     margin-left: 0%;
     margin-right: 0%;
@@ -948,7 +947,7 @@ fieldset textarea {
 
   .top-header {
     width: 100%;
-    background-image: url(/img/bannerpc.png);
+    background-image: url(../img/bannerpc.png);
     background-size: cover;
   }
 
@@ -1062,7 +1061,7 @@ fieldset textarea {
     color: #02A99F;
     padding: 50px;
     padding-left: 100px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 40px;
     text-align: start;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
@@ -1078,7 +1077,7 @@ fieldset textarea {
     margin-bottom: 80px;
     margin-top: -10px;
     padding-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
     padding: 20px;
   }
@@ -1101,7 +1100,7 @@ fieldset textarea {
     position: relative;
     align-items: center;
     justify-content: flex-end;
-    background-image: url(/img/wave\ \(4\).svg);
+    background-image: url(../img/wave\ \(4\).svg);
     background-repeat: no-repeat;
     margin-left: 0%;
     margin-right: 0%;
