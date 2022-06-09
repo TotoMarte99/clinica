@@ -308,7 +308,8 @@ ul li {
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: calc(1.375rem + 1.5vw);
   text-align: center;
   color: #02A99F;
