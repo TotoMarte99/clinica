@@ -281,7 +281,6 @@ ul li {
 }
 
 .Label_Servicios {
-    background-color: $color_contenedor;
     color: $color_principal;
     width: 60%;
     padding: 10px;
@@ -323,7 +322,6 @@ ul li {
 }
 
 .Contacto {
-    background-color: $color_contenedor;
     color: $color_principal;
     width: 50%;
     margin: 30px;
@@ -623,7 +621,6 @@ fieldset {
     }
 
     .Label_Servicios {
-        background-color: $color_contenedor;
         color: $color_principal;
         width: 60%;
         padding: 5px;
@@ -897,7 +894,6 @@ fieldset {
 
         .Label_Servicios {
             margin-top: 20px;
-            background-color: $color_contenedor;
             color: $color_principal;
             width: 40%;
             padding: 10px;
@@ -908,6 +904,9 @@ fieldset {
             font-size: 16px;
             border-radius: 8px;
             text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+        }
+        .Contacto{
+            background-color: white
         }
 
         .Eleginos {
@@ -1086,7 +1085,6 @@ fieldset {
         }
 
         .Label_Servicios {
-            background-color: $color_contenedor;
             color: #02A99F;
             width: 20%;
             margin: 30px;
@@ -1181,7 +1179,6 @@ fieldset {
         }
 
         .Contacto {
-            background-color: $color_contenedor;
             color: #02A99F;
             width: 20%;
             margin: 30px;

@@ -257,7 +257,6 @@ ul li {
 }
 
 .Label_Servicios {
-  background-color: #D9D9D9;
   color: #02A99F;
   width: 60%;
   padding: 10px;
@@ -295,7 +294,6 @@ ul li {
 }
 
 .Contacto {
-  background-color: #D9D9D9;
   color: #02A99F;
   width: 50%;
   margin: 30px;
@@ -578,7 +576,6 @@ fieldset textarea {
   }
 
   .Label_Servicios {
-    background-color: #D9D9D9;
     color: #02A99F;
     width: 60%;
     padding: 5px;
@@ -837,7 +834,6 @@ fieldset textarea {
 
   .Label_Servicios {
     margin-top: 20px;
-    background-color: #D9D9D9;
     color: #02A99F;
     width: 40%;
     padding: 10px;
@@ -848,6 +844,10 @@ fieldset textarea {
     font-size: 16px;
     border-radius: 8px;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .Contacto {
+    background-color: white;
   }
 
   .Eleginos {
@@ -1013,7 +1013,6 @@ fieldset textarea {
   }
 
   .Label_Servicios {
-    background-color: #D9D9D9;
     color: #02A99F;
     width: 20%;
     margin: 30px;
@@ -1105,7 +1104,6 @@ fieldset textarea {
   }
 
   .Contacto {
-    background-color: #D9D9D9;
     color: #02A99F;
     width: 20%;
     margin: 30px;
